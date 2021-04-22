@@ -52,7 +52,7 @@ def nextdate(day,month,year):
 
 
 if __name__=="__main__" : 
-           date=input("enter a date ")
+           date=input("enter a date [dd-mm-yyyy]")
 
            date=date.split("-")
            day=int(date[0])
