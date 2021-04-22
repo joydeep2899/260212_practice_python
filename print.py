@@ -5,7 +5,7 @@ def print_trapezium():
              print("printing a trapzeium")
              for i in range(10):
                    for j in range(10):
-                        if(j in range((10//2)-1,(10//2)+i)     ):
+                        if(j in range((10//2)-i,(10//2)+i+1)     ):
                            print("*",end="")
                         else:
                           print(" ",end="")     
@@ -21,7 +21,9 @@ def print_triangle(n):
                 print("\n")
                                         
                
-           
+
+
+
       
 if __name__=="__main__":
               print_trapezium()
